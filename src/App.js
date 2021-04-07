@@ -1,9 +1,10 @@
+import resume from "./assets/Bach_Diep_Resume.pdf"
 
 function App() {
   return (
     <div>
       <header>
-        <div className="p-2 bg-yellow-600 text-yellow-100 text-sm flex justify-center">✨ [04/07/2021] Site is currently under construnction! Please enjoy the progress! ✨</div>
+        <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">✨ [04/07/2021] Site is currently under construnction! Please enjoy the progress! ✨</div>
         <div className="h-16 p-4 bg-gray-800 flex justify-end items-center sm:hidden">
           <button className="w-12 h-12 text-white text-sm border border-white rounded-lg">Temp</button>
         </div>
@@ -41,7 +42,7 @@ function App() {
         <a href="www.linkedin.com/in/bachdiep" target="_blank" rel="noreferrer">LinkedIn</a>
         <a href="https://twitter.com/itsabach" target="_blank" rel="noreferrer">Twitter</a>
         <a href="https://github.com/bndiep" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="/" target="_blank" rel="noreferrer">Resume</a>
+        <a href={ resume } target="_blank" rel="noreferrer">Resume</a>
       </div>
 
       <div className="mx-8 py-20">
