@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <header>
-        <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">✨ [04/07/2021] Site is currently under construnction! Please enjoy the progress! ✨</div>
+        <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">✨ [04/07/2021] Site is currently under construction! Please enjoy the progress! ✨</div>
         <div className="h-16 p-4 bg-gray-800 flex justify-end items-center sm:hidden">
           <button className="w-12 h-12 text-white text-sm border border-white rounded-lg">Temp</button>
         </div>
