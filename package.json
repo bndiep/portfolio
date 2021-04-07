@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bndiep.github.io/",
+  "homepage": "https://bndiep.github.io/portfolio",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@testing-library/jest-dom": "^5.11.4",
@@ -17,7 +17,7 @@
   "scripts": {
     "build:style": "tailwind build src/styles/index.css",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
