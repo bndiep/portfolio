@@ -1,5 +1,6 @@
 import portrait from "./assets/portrait_illustration.svg"
 import profile from "./assets/BachDiep-3:2021.jpg"
+import stamp from "./assets/stamp.svg"
 import resume from "./assets/Bach_Diep_Resume.pdf"
 
 const App = () => {
@@ -23,7 +24,7 @@ const App = () => {
 
 
 
-        <div className="h-16 p-4 bg-gray-800 flex flex-row justify-between relative hidden" id="top">
+        <div className="h-16 p-4 bg-gray-800 flex flex-row justify-between relative" id="top">
           {/* <a href="#top">
             <span>B.</span>
 
@@ -38,12 +39,12 @@ const App = () => {
           </nav> */}
         </div>
 
-        <nav className="pr-4 hidden sm:flex flex-row justify-end">
+        {/* <nav className="pr-4 hidden sm:flex flex-row justify-end">
           <a href="#top" className="p-4">Home</a>
           <a href="#skills" className="p-4">Skills</a>
           <a href="#projects" className="p-4">Projects</a>
           <a href="/" className="p-4">Art</a>
-        </nav>
+        </nav> */}
       </header>
 
       <div className=" my-24 sm:my-72">
@@ -221,6 +222,7 @@ const App = () => {
       <div className="py-16 flex flex-col justify-center items-center">
         <p>Interested in contacting me? Reach me <a className="text-yellow-900 font-mono" href="mailto:bachdiep.dev@gmail.com"> here</a>.
         </p>
+        <img className="mt-12 w-28 h-28" src={ stamp } alt="Illustration of Bach that has the appearance of a handmade rubber stamp" />
       </div>
       
       <footer className="md:py-2 text-sm text-center flex justify-center items-center text-gray-400">Designed and built by Bach Diep using React.js and Tailwind CSS</footer>
