@@ -179,7 +179,7 @@ function App() {
         <p>Interested in contacting me? Reach me <a className="text-yellow-900" href="mailto:bachdiep.dev@gmail.com"> here</a>.</p>
       </div>
       
-      <footer className="py-2 text-sm flex justify-center text-gray-400">Designed and built by Bach Diep using React.js and Tailwind CSS</footer>
+      <footer className="md:py-2 text-sm text-center flex justify-center items-center text-gray-400">Designed and built by Bach Diep using React.js and Tailwind CSS</footer>
     </div>
   )
 }
