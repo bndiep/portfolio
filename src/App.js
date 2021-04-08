@@ -54,12 +54,15 @@ const App = () => {
         <h1 className="px-12 w-100 text-6xl tracking-wide">
           your friendly <span className="tracking-wide font-mono">coder</span>.
         </h1>
-        <img className="mt-20 mr-2" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
+        <img className="py-20 mr-2" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
       </div>
 
-      <div className="mx-8 p-8 bg-gray-500 text-gray-100 lg:mx-16">
-        <img className="w-24 rounded rounded-full absolute right-0" src={ profile } alt="self portrait of Bach Diep" />
-        <p className="inline-flex">
+      <div className="flex justify-center items-center static">
+          <img className="w-28 rounded rounded-full absolute" src={ profile } alt="self portrait of Bach Diep" />
+      </div>
+
+      <div className="mx-8 p-8 py-16 bg-gray-500 text-gray-100 lg:mx-16">
+        <p>
           I'm a full stack developer based in San Diego, CA.
         </p>
         <p>
