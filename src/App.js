@@ -4,8 +4,6 @@ import profile from "./assets/BachDiep-3:2021.jpg"
 import stamp from "./assets/stamp.svg"
 import resume from "./assets/Bach_Diep_Resume.pdf"
 
-const navStyling = {navClass: "absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0 md:p-0"}
-
 const currentDate = new Date().toJSON().slice(0,10)
 
 const App = () => {
@@ -37,8 +35,7 @@ const App = () => {
           )}
 
         </div>
-        {/* <nav className={"absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0" + (click ? "hidden" : "flex-col")}> */}
-        <nav className={(click ? "absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0 md:p-0" : "absolute md:relative top-24 left-0 md:top-0 z-20 hidden md:flex md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none md:p-0")}>
+        <nav className={`absolute md:relative top-24 left-0 md:top-0 z-20 ${click ? "flex flex-col": "hidden md:flex"} md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0 md:p-0`}>
           <a href="#top" className="block py-1 text-yellow-400 hover:underline" onClick={ closeMenu }>Home</a>
           <a href="#skills" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Skills</a>
           <a href="#projects" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Projects</a>
@@ -66,7 +63,7 @@ const App = () => {
           I'm a full stack developer based in San Diego, CA.
         </p>
         <p>
-          I'm most interested in how tech and art can brige the connection between people.
+          I'm most interested in how tech and art can bridge the connection between people.
           This is what I love most about web development! It is the culimnation of these two concepts:
         </p>
         <p className="italic">
