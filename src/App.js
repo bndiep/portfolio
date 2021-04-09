@@ -23,6 +23,7 @@ const App = () => {
             <img className="w-12 h-12" src={ stamp } alt="To Home"/>
           </div>
         </a>
+        {/* TODO: Download SVG of menu icons and use img tag instead */}
         <div className="mobile-menu" onClick={ handleClick }>
           {click ? (
             <button className="flex justify-center items-center md:hidden w-8 h-8">
@@ -33,7 +34,6 @@ const App = () => {
               <svg alt="Open navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
             </button>
           )}
-
         </div>
         <nav className={`absolute md:relative top-24 left-0 md:top-0 z-20 ${click ? "flex flex-col": "hidden md:flex"} md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0 md:p-0`}>
           <a href="#top" className="block py-1 text-yellow-400 hover:underline" onClick={ closeMenu }>Home</a>
@@ -44,21 +44,23 @@ const App = () => {
         </nav>
       </header>
 
-      <div className=" my-24 sm:my-72">
-        <h1 className="px-12 w-100 text-6xl">
+      <div className="my-24 flex flex-col">
+        <h1 className="px-12 text-6xl md:pt-48">
           Hi, I'm <span className="font-bold">Bach</span>,
         </h1>
         <h1 className="px-12 w-100 text-6xl tracking-wide">
           your friendly <span className="tracking-wide font-mono">coder</span>.
         </h1>
-        <img className="py-20 mr-2 w-3/4 lg:w-1/2" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
+        <div className="flex justify-center md:justify-end">
+          <img className="py-20 mr-2 w-96 md:w-2/5" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
+        </div>
       </div>
 
       <div className="flex justify-center items-center static">
           <img className="w-28 rounded rounded-full absolute" src={ profile } alt="self portrait of Bach Diep" />
       </div>
 
-      <div className="mx-8 p-8 pt-16 bg-gray-500 text-gray-100 lg:mx-16">
+      <div className="mx-8 p-8 pt-16 bg-gray-500 text-gray-100 md:mb-20 md:mx-20 lg:mx-40">
         <p>
           I'm a full stack developer based in San Diego, CA.
         </p>
@@ -68,7 +70,7 @@ const App = () => {
         </p>
         <p className="italic">
           (1) It's the challenge of making a digital product tangible and (2) also engaging using effective design
-          </p>
+        </p>
       </div>
 
       <div className="px-8 p-4 flex justify-around">
@@ -230,4 +232,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App
