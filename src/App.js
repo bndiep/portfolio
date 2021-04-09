@@ -6,6 +6,8 @@ import resume from "./assets/Bach_Diep_Resume.pdf"
 
 const navStyling = {navClass: "absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0 md:p-0"}
 
+const currentDate = new Date().toJSON().slice(0,10)
+
 const App = () => {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
@@ -14,7 +16,7 @@ const App = () => {
   return (
     <div id="top">
       <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">
-        ✨ [04/07/2021] Site is currently under construction! Please enjoy the progress! ✨
+        ✨ [{ currentDate }] Site is currently under construction! Please enjoy the progress! ✨
       </div>
       <header className="flex flex-row justify-between items-center md:space-x-4 bg-gray-800 py-4 px-6 relative">
         <a href="#top" className="block">
