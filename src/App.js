@@ -9,10 +9,12 @@ const App = () => {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
   const closeMenu = () => setClick(false)
-  
+
   return (
     <div id="top">
-      <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">✨ [04/07/2021] Site is currently under construction! Please enjoy the progress! ✨</div>
+      <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">
+        ✨ [04/07/2021] Site is currently under construction! Please enjoy the progress! ✨
+      </div>
       <header className="flex flex-row justify-between items-center md:space-x-4 bg-gray-800 py-4 px-6 relative">
         <a href="#top" className="block">
           <span className="sr-only">Bach Diep's Portfolio</span>
@@ -20,15 +22,24 @@ const App = () => {
             <img className="w-12 h-12" src={ stamp } alt="To Home"/>
           </div>
         </a>
-        <button class="flex justify-center items-center md:hidden w-12 h-12">
-          <svg alt="Open navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
-        </button>
-        <nav className="absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0 md:p-0">
-          <a href="#top" className="block py-1 text-yellow-400 hover:underline">Home</a>
-          <a href="#skills" className="block py-1 text-gray-100 hover:underline">Skills</a>
-          <a href="#projects" className="block py-1 text-gray-100 hover:underline">Projects</a>
-          <a href="#" className="block py-1 text-gray-100 hover:underline">Art</a>
-          <a href="mailto:bachdiep.dev@gmail.com" className="text-gray-100 hover:underline">Contact</a>
+        <div className="mobile-menu" onClick={ handleClick }>
+          {click ? (
+            <button className="flex justify-center items-center md:hidden w-8 h-8">
+              <svg alt="Close navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg>
+          </button>
+          ) : (
+            <button className="flex justify-center items-center md:hidden w-8 h-8">
+              <svg alt="Open navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+            </button>
+          )}
+
+        </div>
+        <nav className={"absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0 md:p-0" + (click ? "hidden" : "flex")}>
+          <a href="#top" className="block py-1 text-yellow-400 hover:underline" onClick={ closeMenu }>Home</a>
+          <a href="#skills" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Skills</a>
+          <a href="#projects" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Projects</a>
+          <a href="#" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Art</a>
+          <a href="mailto:bachdiep.dev@gmail.com" className="bblock py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Contact</a>
         </nav>
 
 
@@ -232,7 +243,7 @@ const App = () => {
       </div>
 
       <div className="py-16 flex flex-col justify-center items-center">
-        <p>Interested in contacting me? Reach me <a className="text-yellow-900 font-mono" href="mailto:bachdiep.dev@gmail.com"> here</a>.
+        <p>Interested in a chat? Reach me <a className="text-yellow-900 font-mono" href="mailto:bachdiep.dev@gmail.com"> here</a>.
         </p>
         <img className="mt-16 w-28 h-28" src={ stamp } alt="Illustration of Bach that has the appearance of a handmade rubber stamp" />
       </div>
