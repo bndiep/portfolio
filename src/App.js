@@ -34,12 +34,13 @@ const App = () => {
           )}
 
         </div>
-        <nav className={"absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0 md:p-0" + (click ? "hidden" : "flex")}>
+        {/* <nav className={"absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0" + (click ? "hidden" : "flex-col")}> */}
+        <nav className={(click ? "absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0" : "absolute md:relative top-24 left-0 md:top-0 z-20 hidden md:flex md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0")}>
           <a href="#top" className="block py-1 text-yellow-400 hover:underline" onClick={ closeMenu }>Home</a>
           <a href="#skills" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Skills</a>
           <a href="#projects" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Projects</a>
           <a href="#" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Art</a>
-          <a href="mailto:bachdiep.dev@gmail.com" className="bblock py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Contact</a>
+          <a href="mailto:bachdiep.dev@gmail.com" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Contact</a>
         </nav>
 
 
