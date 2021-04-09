@@ -1,26 +1,35 @@
+import { useState } from "react"
 import portrait from "./assets/portrait_illustration.svg"
 import profile from "./assets/BachDiep-3:2021.jpg"
 import stamp from "./assets/stamp.svg"
-import menu from "./assets/menu_icon.svg"
 import resume from "./assets/Bach_Diep_Resume.pdf"
+import { react } from "@babel/types"
 
 const App = () => {
+  const [click, setClick] = useState(false)
+  const handleClick = () => setClick(!click)
+  const closeMenu = () => setClick(false)
+  
   return (
-    <div>
+    <div id="top">
       <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">✨ [04/07/2021] Site is currently under construction! Please enjoy the progress! ✨</div>
-      <header className="flex flex-row justify-between items-center space-x-4 bg-gray-800 py-6 px-6 relative" id="top">
+      <header className="flex flex-row justify-between items-center md:space-x-4 bg-gray-800 py-4 px-6 relative">
         <a href="#top" className="block">
           <span className="sr-only">Bach Diep's Portfolio</span>
-          <img className="w-12 h-12" src={ stamp } alt="To Home"/>
+          <div className="w-16 h-16 bg-white rounded-full flex justify-center items-center">
+            <img className="w-12 h-12" src={ stamp } alt="To Home"/>
+          </div>
         </a>
-
-      <nav className="flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 md:bg-transparent p-6 md:p-0">
-        <a href="#top" className="text-yellow-400 hover:underline">Home</a>
-        <a href="#skills" className="text-gray-100 hover:underline">Skills</a>
-        <a href="#projects" className="text-gray-100 hover:underline">Projects</a>
-        <a href="#" className="text-gray-100 hover:underline">Art</a>
-        <a href="mailto:bachdiep.dev@gmail.com" className="text-gray-100 hover:underline">Contact</a>
-      </nav>
+        <button class="flex justify-center items-center md:hidden w-12 h-12">
+          <svg alt="Open navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+        </button>
+        <nav className="absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0 md:p-0">
+          <a href="#top" className="block py-1 text-yellow-400 hover:underline">Home</a>
+          <a href="#skills" className="block py-1 text-gray-100 hover:underline">Skills</a>
+          <a href="#projects" className="block py-1 text-gray-100 hover:underline">Projects</a>
+          <a href="#" className="block py-1 text-gray-100 hover:underline">Art</a>
+          <a href="mailto:bachdiep.dev@gmail.com" className="text-gray-100 hover:underline">Contact</a>
+        </nav>
 
 
 
@@ -61,7 +70,7 @@ const App = () => {
           <img className="w-28 rounded rounded-full absolute" src={ profile } alt="self portrait of Bach Diep" />
       </div>
 
-      <div className="mx-8 p-8 py-16 bg-gray-500 text-gray-100 lg:mx-16">
+      <div className="mx-8 p-8 pt-16 bg-gray-500 text-gray-100 lg:mx-16">
         <p>
           I'm a full stack developer based in San Diego, CA.
         </p>
