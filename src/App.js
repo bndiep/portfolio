@@ -3,7 +3,8 @@ import portrait from "./assets/portrait_illustration.svg"
 import profile from "./assets/BachDiep-3:2021.jpg"
 import stamp from "./assets/stamp.svg"
 import resume from "./assets/Bach_Diep_Resume.pdf"
-import { react } from "@babel/types"
+
+const navStyling = {navClass: "absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0 md:p-0"}
 
 const App = () => {
   const [click, setClick] = useState(false)
@@ -35,37 +36,13 @@ const App = () => {
 
         </div>
         {/* <nav className={"absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0" + (click ? "hidden" : "flex-col")}> */}
-        <nav className={(click ? "absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0" : "absolute md:relative top-24 left-0 md:top-0 z-20 hidden md:flex md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0")}>
+        <nav className={(click ? "absolute md:relative top-24 left-0 md:top-0 z-20 flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none p-6 pt-0 md:p-0" : "absolute md:relative top-24 left-0 md:top-0 z-20 hidden md:flex md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 shadow-md md:shadow-none md:p-0")}>
           <a href="#top" className="block py-1 text-yellow-400 hover:underline" onClick={ closeMenu }>Home</a>
           <a href="#skills" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Skills</a>
           <a href="#projects" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Projects</a>
           <a href="#" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Art</a>
           <a href="mailto:bachdiep.dev@gmail.com" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Contact</a>
         </nav>
-
-
-
-        {/* <div className="h-16 p-4 bg-gray-800 flex flex-row justify-between relative" id="top"> */}
-          {/* <a href="#top">
-            <span>B.</span>
-
-            <img src="" alt="logo"></img>
-          </a> */}
-          {/* <button className="w-12 h-12 text-white text-2xl border border-white rounded-lg">=</button> */}
-          {/* <nav className="w-full bg-gray-800 text-gray-100 flex flex-col md:flex-row md:bg-transparent md:w-auto md:items-center">
-            <a href="#top" className="p-4">Home</a>
-            <a href="#skills" className="p-4">Skills</a>
-            <a href="#projects" className="p-4">Projects</a>
-            <a href="/" className="p-4">Art</a>
-          </nav> */}
-        {/* </div> */}
-
-        {/* <nav className="pr-4 hidden sm:flex flex-row justify-end">
-          <a href="#top" className="p-4">Home</a>
-          <a href="#skills" className="p-4">Skills</a>
-          <a href="#projects" className="p-4">Projects</a>
-          <a href="/" className="p-4">Art</a>
-        </nav> */}
       </header>
 
       <div className=" my-24 sm:my-72">
