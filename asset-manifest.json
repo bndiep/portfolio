@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7b77e936.chunk.css",
-    "main.js": "/portfolio/static/js/main.dee2cc30.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.dee2cc30.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.e8b6d137.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e8b6d137.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.72d17ada.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.72d17ada.js.map",
     "static/js/2.ffffddff.chunk.js": "/portfolio/static/js/2.ffffddff.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.ffffddff.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ffffddff.chunk.js.LICENSE.txt",
     "static/media/BachDiep-3:2021.71dd8696.jpg": "/portfolio/static/media/BachDiep-3:2021.71dd8696.jpg",
     "static/media/Bach_Diep_Resume.5bd770ca.pdf": "/portfolio/static/media/Bach_Diep_Resume.5bd770ca.pdf",
+    "static/media/menu_icon.fe8a072a.svg": "/portfolio/static/media/menu_icon.fe8a072a.svg",
     "static/media/portrait_illustration.19f47881.svg": "/portfolio/static/media/portrait_illustration.19f47881.svg",
     "static/media/stamp.6a046192.svg": "/portfolio/static/media/stamp.6a046192.svg"
   },
@@ -21,6 +22,6 @@
     "static/js/runtime-main.72d17ada.js",
     "static/js/2.ffffddff.chunk.js",
     "static/css/main.7b77e936.chunk.css",
-    "static/js/main.dee2cc30.chunk.js"
+    "static/js/main.e8b6d137.chunk.js"
   ]
 }
