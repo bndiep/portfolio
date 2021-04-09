@@ -60,7 +60,7 @@ const App = () => {
           <img className="w-28 rounded rounded-full absolute" src={ profile } alt="self portrait of Bach Diep" />
       </div>
 
-      <div className="mx-8 p-8 pt-16 bg-gray-500 text-gray-100 md:mb-20 md:mx-20 lg:mx-40">
+      <div className="mx-8 p-8 pt-16 bg-gray-500 text-gray-100 md:mb-4 md:mx-20 lg:mx-40">
         <p>
           I'm a full stack developer based in San Diego, CA.
         </p>
