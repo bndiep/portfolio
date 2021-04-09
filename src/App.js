@@ -1,30 +1,30 @@
 import portrait from "./assets/portrait_illustration.svg"
 import profile from "./assets/BachDiep-3:2021.jpg"
 import stamp from "./assets/stamp.svg"
+import menu from "./assets/menu_icon.svg"
 import resume from "./assets/Bach_Diep_Resume.pdf"
 
 const App = () => {
   return (
     <div>
-      <header>
-        <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">✨ [04/07/2021] Site is currently under construction! Please enjoy the progress! ✨</div>
-
-        <a href="#" className="block hidden">
-          <span className="sr-only">example</span>
-          <img src="" alt="temp"/>
+      <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">✨ [04/07/2021] Site is currently under construction! Please enjoy the progress! ✨</div>
+      <header className="flex flex-row justify-between items-center space-x-4 bg-gray-800 py-6 px-6 relative" id="top">
+        <a href="#top" className="block">
+          <span className="sr-only">Bach Diep's Portfolio</span>
+          <img className="w-12 h-12" src={ stamp } alt="To Home"/>
         </a>
 
-      <nav className="flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-100 md:bg-transparent p-6 md:p-0 hidden">
-        <a href="#" className="text-indigo-600 hover:underline">Home</a>
-        <a href="#" className="text-gray-600 hover:underline">About us</a>
-        <a href="#" className="text-gray-600 hover:underline">Services</a>
-        <a href="#" className="text-gray-600 hover:underline">Blog</a>
-        <a href="#" className="text-gray-600 hover:underline">Contact</a>
+      <nav className="flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-gray-800 md:bg-transparent p-6 md:p-0">
+        <a href="#top" className="text-yellow-400 hover:underline">Home</a>
+        <a href="#skills" className="text-gray-100 hover:underline">Skills</a>
+        <a href="#projects" className="text-gray-100 hover:underline">Projects</a>
+        <a href="#" className="text-gray-100 hover:underline">Art</a>
+        <a href="mailto:bachdiep.dev@gmail.com" className="text-gray-100 hover:underline">Contact</a>
       </nav>
 
 
 
-        <div className="h-16 p-4 bg-gray-800 flex flex-row justify-between relative" id="top">
+        {/* <div className="h-16 p-4 bg-gray-800 flex flex-row justify-between relative" id="top"> */}
           {/* <a href="#top">
             <span>B.</span>
 
@@ -37,7 +37,7 @@ const App = () => {
             <a href="#projects" className="p-4">Projects</a>
             <a href="/" className="p-4">Art</a>
           </nav> */}
-        </div>
+        {/* </div> */}
 
         {/* <nav className="pr-4 hidden sm:flex flex-row justify-end">
           <a href="#top" className="p-4">Home</a>
@@ -54,7 +54,7 @@ const App = () => {
         <h1 className="px-12 w-100 text-6xl tracking-wide">
           your friendly <span className="tracking-wide font-mono">coder</span>.
         </h1>
-        <img className="py-20 mr-2" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
+        <img className="py-20 mr-2 w-3/4 lg:w-1/2" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
       </div>
 
       <div className="flex justify-center items-center static">
