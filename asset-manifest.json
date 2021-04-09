@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7b77e936.chunk.css",
-    "main.js": "/portfolio/static/js/main.9d64d3a8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9d64d3a8.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.d1ea77ad.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d1ea77ad.js.map",
-    "static/js/2.252d3bcf.chunk.js": "/portfolio/static/js/2.252d3bcf.chunk.js",
-    "static/js/2.252d3bcf.chunk.js.map": "/portfolio/static/js/2.252d3bcf.chunk.js.map",
-    "static/js/3.9c75fc4b.chunk.js": "/portfolio/static/js/3.9c75fc4b.chunk.js",
-    "static/js/3.9c75fc4b.chunk.js.map": "/portfolio/static/js/3.9c75fc4b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ec7a9063.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ec7a9063.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.51553de9.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.51553de9.js.map",
+    "static/js/2.d27039b3.chunk.js": "/portfolio/static/js/2.d27039b3.chunk.js",
+    "static/js/2.d27039b3.chunk.js.map": "/portfolio/static/js/2.d27039b3.chunk.js.map",
+    "static/js/3.a9e4f123.chunk.js": "/portfolio/static/js/3.a9e4f123.chunk.js",
+    "static/js/3.a9e4f123.chunk.js.map": "/portfolio/static/js/3.a9e4f123.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.7b77e936.chunk.css.map": "/portfolio/static/css/main.7b77e936.chunk.css.map",
-    "static/js/2.252d3bcf.chunk.js.LICENSE.txt": "/portfolio/static/js/2.252d3bcf.chunk.js.LICENSE.txt",
+    "static/js/2.d27039b3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d27039b3.chunk.js.LICENSE.txt",
     "static/media/BachDiep-3:2021.71dd8696.jpg": "/portfolio/static/media/BachDiep-3:2021.71dd8696.jpg",
     "static/media/Bach_Diep_Resume.5bd770ca.pdf": "/portfolio/static/media/Bach_Diep_Resume.5bd770ca.pdf",
     "static/media/portrait_illustration.19f47881.svg": "/portfolio/static/media/portrait_illustration.19f47881.svg",
     "static/media/stamp.6a046192.svg": "/portfolio/static/media/stamp.6a046192.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d1ea77ad.js",
-    "static/js/2.252d3bcf.chunk.js",
+    "static/js/runtime-main.51553de9.js",
+    "static/js/2.d27039b3.chunk.js",
     "static/css/main.7b77e936.chunk.css",
-    "static/js/main.9d64d3a8.chunk.js"
+    "static/js/main.ec7a9063.chunk.js"
   ]
 }
