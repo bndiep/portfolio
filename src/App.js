@@ -46,9 +46,14 @@ const App = () => {
           <a href="mailto:bachdiep.dev@gmail.com" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Contact</a>
         </nav>
       </header>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#1f2937" fill-opacity="1" d="M0,32L48,58.7C96,85,192,139,288,144C384,149,480,107,576,80C672,53,768,43,864,64C960,85,1056,139,1152,154.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        </svg>
+      </div>
 
       <div className="my-24 flex flex-col">
-        <h1 className="px-12 text-6xl md:pt-48">
+        <h1 className="px-12 text-6xl md:pt-8">
           Hi, I'm <span className="font-bold">Bạch</span>,
         </h1>
         <h1 className="px-12 w-100 text-6xl tracking-wide">
@@ -70,7 +75,7 @@ const App = () => {
           <img className="w-28 rounded rounded-full absolute" src={ profile } alt="self portrait of Bach Diep" />
       </div>
 
-      <div className="mx-8 p-8 pt-16 bg-gray-500 text-gray-100 md:mb-4 md:mx-20 lg:mx-40">
+      <div className="p-12 pt-16 bg-gray-500 text-gray-100 md:mb-4 md:px-20 text-justify">
         <p>
           I'm a full stack developer based in San Diego, CA.
         </p>
@@ -227,8 +232,13 @@ const App = () => {
               <a className="px-2" href="https://github.com/bndiep/blog-app">GitHub</a>
             </div>
           </div>
-
         </div>
+      </div>
+
+      <div>
+        <svg className="fill-current text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path d="M0,64L48,96C96,128,192,192,288,186.7C384,181,480,107,576,101.3C672,96,768,160,864,197.3C960,235,1056,245,1152,245.3C1248,245,1344,235,1392,229.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        </svg>
       </div>
 
       <div className="py-16 flex flex-col justify-center items-center">
