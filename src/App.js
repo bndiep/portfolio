@@ -28,7 +28,6 @@ const App = () => {
             <img className="w-12 h-12" src={ stamp } alt="To Home"/>
           </div>
         </a>
-        {/* TODO: Download SVG of menu icons and use img tag instead */}
         <div className="mobile-menu" onClick={ handleClick }>
           { click ? (
             <button className="flex justify-center items-center md:hidden w-12 h-12">
@@ -77,17 +76,22 @@ const App = () => {
           <img className="w-28 rounded rounded-full absolute" src={ profile } alt="self portrait of Bach Diep" />
       </div>
 
-      <div className="p-12 pt-16 bg-gray-500 text-gray-100 md:mb-4 md:px-20 text-justify">
+      <div className="p-12 pt-16 bg-gray-500 text-gray-100 md:px-20">
         <p>
           I'm a full stack developer based in San Diego, CA.
         </p>
         <p>
           I'm most interested in how tech and art can bridge the connection between people.
-          This is what I love most about web development! It is the culimnation of these two concepts:
+          This is what I love most about web development! It is the culimnation of these two challenges:
         </p>
-        <p className="italic">
-          (1) It's the challenge of making a digital product tangible and (2) also engaging using effective design
-        </p>
+      </div>
+      <div className="pb-6 flex flex-row justify-stretch">
+        <div className="p-12 w-1/2 bg-yellow-300 text-yellow-900">
+          <p>Making a digital product tangiable and accessible.</p>
+        </div>
+        <div className="p-12 w-1/2 bg-gray-700 text-gray-100">
+          <p>Creating an engaging product using effective design.</p>
+        </div>
       </div>
 
       <div className="px-8 p-4 flex justify-around">
