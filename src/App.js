@@ -1,10 +1,13 @@
 import { useState } from "react"
+import TextLoop from "react-text-loop"
+
 import portrait from "./assets/portrait_illustration.svg"
 import profile from "./assets/BachDiep-3:2021.jpg"
 import stamp from "./assets/stamp.svg"
 import resume from "./assets/Bach_Diep_Resume.pdf"
 
 const currentDate = new Date().toJSON().slice(0,10)
+const titles = ['coder', 'illustrator', 'introvert', '!robot']
 
 const App = () => {
   const [click, setClick] = useState(false)
@@ -14,7 +17,7 @@ const App = () => {
   return (
     <div id="top">
       <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">
-        ✨ [{ currentDate }] Site is currently under construction! Please enjoy the progress! ✨
+        ✨ [{ currentDate }] This site is currently under construction! Please enjoy the progress! ✨
       </div>
       <header className="flex flex-row justify-between items-center md:space-x-4 bg-gray-800 py-4 px-6 relative">
         <a href="#top" className="block">
@@ -25,7 +28,7 @@ const App = () => {
         </a>
         {/* TODO: Download SVG of menu icons and use img tag instead */}
         <div className="mobile-menu" onClick={ handleClick }>
-          {click ? (
+          { click ? (
             <button className="flex justify-center items-center md:hidden w-8 h-8">
               <svg alt="Close navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg>
           </button>
@@ -39,17 +42,24 @@ const App = () => {
           <a href="#top" className="block py-1 text-yellow-400 hover:underline" onClick={ closeMenu }>Home</a>
           <a href="#skills" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Skills</a>
           <a href="#projects" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Projects</a>
-          <a href="#" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Art</a>
+          <a href="#top" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Art</a>
           <a href="mailto:bachdiep.dev@gmail.com" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Contact</a>
         </nav>
       </header>
 
       <div className="my-24 flex flex-col">
         <h1 className="px-12 text-6xl md:pt-48">
-          Hi, I'm <span className="font-bold">Bach</span>,
+          Hi, I'm <span className="font-bold">Bạch</span>,
         </h1>
         <h1 className="px-12 w-100 text-6xl tracking-wide">
-          your friendly <span className="tracking-wide font-mono">coder</span>.
+          your friendly <span className="invisible"> </span>
+          <TextLoop
+            springConfig={{ stiffness: 180, damping: 8 }}
+            interval={2000}
+          >
+            { titles.map(title => <span key="id">{ title }</span>) }
+          </TextLoop>
+          .
         </h1>
         <div className="flex justify-center md:justify-end">
           <img className="py-20 mr-2 w-96 md:w-2/5" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
