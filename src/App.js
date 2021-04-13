@@ -32,13 +32,11 @@ const App = () => {
         <div className="mobile-menu" onClick={ handleClick }>
           { click ? (
             <button className="flex justify-center items-center md:hidden w-12 h-12">
-              {/* <svg alt="Close navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg> */}
-            <img src={ closeBtn } className="h-8" alt="Close navigation menu" />
+              <img src={ closeBtn } className="h-8" alt="Close navigation menu" />
           </button>
           ) : (
             <button className="flex justify-center items-center md:hidden w-12 h-12">
-              {/* <svg alt="Open navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg> */}
-            <img src={ menuBtn } className="h-8" alt="Open navigation menu" />
+              <img src={ menuBtn } className="h-8" alt="Open navigation menu" />
             </button>
           )}
         </div>
@@ -51,8 +49,8 @@ const App = () => {
         </nav>
       </header>
       <div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path fill="#1f2937" fill-opacity="1" d="M0,32L48,58.7C96,85,192,139,288,144C384,149,480,107,576,80C672,53,768,43,864,64C960,85,1056,139,1152,154.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        <svg className="fill-current text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path d="M0,32L48,58.7C96,85,192,139,288,144C384,149,480,107,576,80C672,53,768,43,864,64C960,85,1056,139,1152,154.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
         </svg>
       </div>
 
@@ -71,7 +69,7 @@ const App = () => {
           .
         </h1>
         <div className="flex justify-center md:justify-end">
-          <img className="py-20 mr-2 w-96 md:w-2/5" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
+          <img className="py-12 mr-2 w-96 md:w-2/5" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
         </div>
       </div>
 
