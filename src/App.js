@@ -85,7 +85,7 @@ const App = () => {
           This is what I love most about web development! It is the culimnation of these two challenges:
         </p>
       </div>
-      <div className="pb-6 flex flex-row justify-stretch">
+      <div className="flex flex-row justify-stretch">
         <div className="p-12 w-1/2 bg-yellow-300 text-yellow-900">
           <p>Making a digital product tangiable and accessible.</p>
         </div>
@@ -94,7 +94,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className="px-8 p-4 flex justify-around">
+      <div className="p-8 flex justify-around">
         <a href="mailto:bachdiep.dev@gmail.com">
           <svg alt="E-mail me!" xmlns="http://www.w3.org/2000/svg" className="w-12 h-12" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
         </a>
@@ -112,11 +112,11 @@ const App = () => {
         </a>
       </div>
 
-      <div className="mx-8 py-20">
-        <h2 className="py-2 text-3xl font-bold tracking-widest border-b-2" id="skills">Skills</h2>
+      <div className="px-8 py-12 bg-gray-200">
+        <h2 className="py-2 text-3xl font-bold tracking-widest border-b-2 border-gray-400" id="skills">Skills</h2>
         <div className="pt-12 font-mono flex flex-wrap justify-center items-start">
           
-          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg">
+          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
             <h3 className="p-2 h-48 text-2xl border-b-2 border-black rounded-lg">Frontend</h3>
             <ul>
               <li className="p-2 border-b-2 border-black rounded-lg">HTML</li>
@@ -127,7 +127,7 @@ const App = () => {
             </ul>
           </div>
           
-          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg">
+          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
             <h3 className="p-2 h-48 text-2xl border-b-2 border-black rounded-lg">Backend</h3>
             <ul>
               <li className="p-2 border-b-2 border-black rounded-lg">Ruby on Rails</li>
@@ -136,7 +136,7 @@ const App = () => {
             </ul>
           </div>
           
-          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg">
+          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
             <h3 className="p-2 h-48 text-2xl border-b-2 border-black rounded-lg">Version Control</h3>
             <ul>
               <li className="p-2 border-b-2 border-black rounded-lg">Git</li>
@@ -145,7 +145,7 @@ const App = () => {
             </ul>
           </div>
 
-          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg">
+          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
             <h3 className="p-2 h-48 text-2xl border-b-2 border-black rounded-lg">Remote Work</h3>
             <ul>
               <li className="p-2 border-b-2 border-black rounded-lg">Slack</li>
@@ -153,7 +153,7 @@ const App = () => {
             </ul>
           </div>
 
-          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg">
+          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
             <h3 className="p-2 h-48 text-2xl border-b-2 border-black rounded-lg">Design</h3>
             <ul>
               <li className="p-2 border-b-2 border-black rounded-lg">Figma</li>
