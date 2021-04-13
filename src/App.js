@@ -4,6 +4,8 @@ import TextLoop from "react-text-loop"
 import portrait from "./assets/portrait_illustration.svg"
 import profile from "./assets/BachDiep-3:2021.jpg"
 import stamp from "./assets/stamp.svg"
+import menuBtn from "./assets/iconmonstr-menu-1.svg"
+import closeBtn from "./assets/iconmonstr-x-mark-1.svg"
 import resume from "./assets/Bach_Diep_Resume.pdf"
 
 const currentDate = new Date().toJSON().slice(0,10)
@@ -29,12 +31,14 @@ const App = () => {
         {/* TODO: Download SVG of menu icons and use img tag instead */}
         <div className="mobile-menu" onClick={ handleClick }>
           { click ? (
-            <button className="flex justify-center items-center md:hidden w-8 h-8">
-              <svg alt="Close navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg>
+            <button className="flex justify-center items-center md:hidden w-12 h-12">
+              {/* <svg alt="Close navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg> */}
+            <img src={ closeBtn } className="h-8" alt="Close navigation menu" />
           </button>
           ) : (
-            <button className="flex justify-center items-center md:hidden w-8 h-8">
-              <svg alt="Open navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+            <button className="flex justify-center items-center md:hidden w-12 h-12">
+              {/* <svg alt="Open navigation menu" className="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg> */}
+            <img src={ menuBtn } className="h-8" alt="Open navigation menu" />
             </button>
           )}
         </div>
