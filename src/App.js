@@ -73,7 +73,7 @@ const App = () => {
             springConfig={{ stiffness: 180, damping: 8 }}
             interval={2000}
           >
-            { titles.map(title => <span key="id">{ title }</span>) }
+            { titles.map(title => <span className="font-mono font-medium text-yellow-500" key="id">{ title }</span>) }
           </TextLoop>
           .
         </h1>
@@ -86,21 +86,23 @@ const App = () => {
           <img className="w-28 rounded rounded-full absolute" src={ profile } alt="self portrait of Bach Diep" />
       </div>
 
-      <div className="p-12 pt-16 bg-gray-500 text-gray-100 md:px-20">
-        <p>
+      <div className="px-12 py-8 pt-20 bg-gray-500 text-gray-100 md:px-20 leading-loose">
+        <p className="font-mono text-2xl text-center">
           I'm a full stack developer based in San Diego, CA.
         </p>
         <p>
-          I'm most interested in how tech and art can bridge the connection between people.
+          I love being creative and sharing my work with others! I'm most interested in how tech and art can bridge the connection between people.
           This is what I love most about web development! It is the culimnation of these two challenges:
         </p>
       </div>
-      <div className="flex flex-row justify-stretch">
-        <div className="p-12 w-1/2 bg-yellow-300 text-yellow-900 border-l-4 border-black">
-          <p>Making a digital product tangiable and accessible.</p>
+      <div className="flex flex-row">
+        <div className="p-6 py-16 md:p-20 w-1/2 bg-yellow-300 text-yellow-900 border-l-4 border-black">
+          <span className="font-mono text-2xl">Developing...</span>
+          <p> a digital product tangiable and accessible.</p>
         </div>
-        <div className="p-12 w-1/2 bg-gray-700 text-gray-100 border-l-4 border-black">
-          <p>Creating an engaging product using effective design.</p>
+        <div className="p-6 py-16 md:p-20 w-1/2 bg-gray-700 text-gray-100 border-l-4 border-black">
+          <span className="font-mono text-2xl">Creating...</span>
+          <p> an engaging product using effective design.</p>
         </div>
       </div>
 
@@ -123,11 +125,11 @@ const App = () => {
       </div>
 
       <div className="px-8 py-12 bg-gray-200">
-        <h2 className="py-2 text-3xl font-bold tracking-widest border-b-2 border-gray-400" id="skills">Skills</h2>
+        <h2 className="py-2 text-3xl font-mono font-bold tracking-widest border-b-2 border-gray-400" id="skills">Skills</h2>
         <div className="pt-12 font-mono flex flex-wrap justify-center items-start">
           
-          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
-            <div className="p-2 h-48 border-b-2 border-black rounded-lg">
+          <div className="m-2 w-64 border-t border-l border-r border-black rounded-lg bg-white">
+            <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Frontend</h3>
               <img className="pt-2" src={ frontend } alt="abstract depiction of frontend development" />
             </div>
@@ -140,8 +142,8 @@ const App = () => {
             </ul>
           </div>
           
-          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
-            <div className="p-2 h-48 border-b-2 border-black rounded-lg">
+          <div className="m-2 w-64 border-t border-l border-r border-black rounded-lg bg-white">
+            <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Backend</h3>
               <img className="pt-2" src={ backend } alt="abstract depiction of backend development" />
             </div>
@@ -152,8 +154,8 @@ const App = () => {
             </ul>
           </div>
           
-          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
-            <div className="p-2 h-56 border-b-2 border-black rounded-lg">
+          <div className="m-2 w-64 border-t border-l border-r border-black rounded-lg bg-white">
+            <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Version Control</h3>
               <img className="pt-2" src={ versionControl } alt="abstract depiction of a version control system" />
             </div>
@@ -164,8 +166,8 @@ const App = () => {
             </ul>
           </div>
 
-          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
-            <div className="p-2 h-56 border-b-2 border-black rounded-lg">
+          <div className="m-2 w-64 border-t border-l border-r border-black rounded-lg bg-white">
+            <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Working Remote</h3>
               <img className="pt-2" src={ remoteWork } alt="two people working communicating online" />
             </div>
@@ -175,8 +177,8 @@ const App = () => {
             </ul>
           </div>
 
-          <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
-            <div className="p-2 h-48 border-b-2 border-black rounded-lg">
+          <div className="m-2 w-64 border-t border-l border-r border-black rounded-lg bg-white">
+            <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Design</h3>
               <img className="pt-2" src={ design } alt="pencil and color wheel" />
             </div>
@@ -191,7 +193,7 @@ const App = () => {
       </div>
 
       <div className="px-8 py-12 bg-gray-800 text-gray-200">
-        <h2 className="py-2 text-3xl font-bold tracking-widest border-b-2" id="projects">Projects</h2>
+        <h2 className="py-2 text-3xl font-mono font-bold tracking-widest border-b-2" id="projects">Projects</h2>
         <div className="flex flex-col justify-center items-center">
           
           <div className="p-8">
@@ -273,7 +275,7 @@ const App = () => {
       </div>
 
       <div className="py-16 flex flex-col justify-center items-center">
-        <p>Interested in a chat? Reach me <a className="text-yellow-900 font-mono" href="mailto:bachdiep.dev@gmail.com"> here</a>.
+        <p>Interested in a chat? Reach me <a className="text-yellow-900 font-mono bg-yellow-200" href="mailto:bachdiep.dev@gmail.com"> here</a>.
         </p>
         <img className="mt-16 w-28 h-28" src={ stamp } alt="Illustration of Bach that has the appearance of a handmade rubber stamp" />
       </div>
