@@ -73,12 +73,12 @@ const App = () => {
             springConfig={{ stiffness: 180, damping: 8 }}
             interval={2000}
           >
-            { titles.map(title => <span className="font-mono text-yellow-500" key="id">{ title }</span>) }
+            { titles.map(title => <span className="font-mono text-yellow-500 tracking-tighter" key="id">{ title }</span>) }
           </TextLoop>
           .
         </h1>
         <div className="flex justify-center md:justify-end">
-          <img className="py-12 mr-2 w-96 md:w-2/5" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
+          <img className="py-6 mr-2 w-96 md:w-2/5" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
         </div>
       </div>
 
@@ -96,11 +96,11 @@ const App = () => {
         </p>
       </div>
       <div className="flex flex-row">
-        <div className="p-6 py-16 md:p-20 w-1/2 bg-yellow-300 text-yellow-900 border-l-4 border-black">
+        <div className="p-4 py-12 md:p-20 w-1/2 bg-yellow-300 text-yellow-900 border-l-4 border-black">
           <span className="font-mono text-2xl">Developing...</span>
           <p> a digital product tangiable and accessible.</p>
         </div>
-        <div className="p-6 py-16 md:p-20 w-1/2 bg-gray-700 text-gray-100 border-l-4 border-black">
+        <div className="p-4 py-12 md:p-20 w-1/2 bg-gray-700 text-gray-100 border-l-4 border-black">
           <span className="font-mono text-2xl">Creating...</span>
           <p> an engaging product using effective design.</p>
         </div>
@@ -128,7 +128,7 @@ const App = () => {
         <h2 className="py-2 text-3xl font-mono font-bold tracking-widest border-b-2 border-gray-400" id="skills">Skills</h2>
         <div className="pt-12 font-mono flex flex-wrap justify-center items-start">
           
-          <div className="m-2 w-72 border-t border-l border-r border-black rounded-lg bg-white">
+          <div className="m-2 w-72 md:w-48 border-t border-l border-r border-black rounded-lg bg-white">
             <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Frontend</h3>
               <img className="pt-2" src={ frontend } alt="abstract depiction of frontend development" />
@@ -142,7 +142,7 @@ const App = () => {
             </ul>
           </div>
           
-          <div className="m-2 w-72 border-t border-l border-r border-black rounded-lg bg-white">
+          <div className="m-2 w-72 md:w-48 border-t border-l border-r border-black rounded-lg bg-white">
             <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Backend</h3>
               <img className="pt-2" src={ backend } alt="abstract depiction of backend development" />
@@ -154,7 +154,7 @@ const App = () => {
             </ul>
           </div>
           
-          <div className="m-2 w-72 border-t border-l border-r border-black rounded-lg bg-white">
+          <div className="m-2 w-72 md:w-48 border-t border-l border-r border-black rounded-lg bg-white">
             <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Version Control</h3>
               <img className="pt-2" src={ versionControl } alt="abstract depiction of a version control system" />
@@ -166,7 +166,7 @@ const App = () => {
             </ul>
           </div>
 
-          <div className="m-2 w-72 border-t border-l border-r border-black rounded-lg bg-white">
+          <div className="m-2 w-72 md:w-48 border-t border-l border-r border-black rounded-lg bg-white">
             <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Working Remote</h3>
               <img className="pt-2" src={ remoteWork } alt="two people working communicating online" />
@@ -177,7 +177,7 @@ const App = () => {
             </ul>
           </div>
 
-          <div className="m-2 w-72 border-t border-l border-r border-black rounded-lg bg-white">
+          <div className="m-2 w-72 md:w-48 border-t border-l border-r border-black rounded-lg bg-white">
             <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Design</h3>
               <img className="pt-2" src={ design } alt="pencil and color wheel" />
