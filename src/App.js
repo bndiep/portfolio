@@ -63,11 +63,11 @@ const App = () => {
         </svg>
       </div>
 
-      <div className="my-24 flex flex-col">
-        <h1 className="px-12 text-4xl md:text-6xl md:pt-8">
+      <div className="my-20 flex flex-col">
+        <h1 className="px-12 text-5xl md:text-6xl md:pt-8">
           Hi, I'm <span className="font-bold">Bạch</span>,
         </h1>
-        <h1 className="px-12 w-100 text-4xl md:text-6xl tracking-wide">
+        <h1 className="px-12 w-100 text-5xl md:text-6xl tracking-wide">
           your friendly <span className="invisible"> </span>
           <TextLoop
             springConfig={{ stiffness: 180, damping: 8 }}
@@ -78,7 +78,7 @@ const App = () => {
           .
         </h1>
         <div className="flex justify-center md:justify-end">
-          <img className="py-6 mr-2 w-96 md:w-2/5" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
+          <img className="pt-6 md:py-6 mr-2 h-96 md:w-2/5" src={ portrait } alt="Funky illustration of Bach using a laptop"/>
         </div>
       </div>
 
