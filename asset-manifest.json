@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7b77e936.chunk.css",
-    "main.js": "/portfolio/static/js/main.28429e58.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.28429e58.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.4e15f138.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4e15f138.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f1fb57f0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f1fb57f0.js.map",
     "static/js/2.f44ca76b.chunk.js": "/portfolio/static/js/2.f44ca76b.chunk.js",
@@ -14,15 +14,25 @@
     "static/js/2.f44ca76b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f44ca76b.chunk.js.LICENSE.txt",
     "static/media/BachDiep-3:2021.71dd8696.jpg": "/portfolio/static/media/BachDiep-3:2021.71dd8696.jpg",
     "static/media/Bach_Diep_Resume.5bd770ca.pdf": "/portfolio/static/media/Bach_Diep_Resume.5bd770ca.pdf",
+    "static/media/backend_img.a8f12c83.svg": "/portfolio/static/media/backend_img.a8f12c83.svg",
+    "static/media/design_img.1dc00bba.svg": "/portfolio/static/media/design_img.1dc00bba.svg",
+    "static/media/frontend_img.3e7c38ce.svg": "/portfolio/static/media/frontend_img.3e7c38ce.svg",
     "static/media/iconmonstr-menu-1.9ab4a2d0.svg": "/portfolio/static/media/iconmonstr-menu-1.9ab4a2d0.svg",
     "static/media/iconmonstr-x-mark-1.a300bb0f.svg": "/portfolio/static/media/iconmonstr-x-mark-1.a300bb0f.svg",
+    "static/media/lifeband.ef5a5837.png": "/portfolio/static/media/lifeband.ef5a5837.png",
+    "static/media/piglatin.adf0b787.png": "/portfolio/static/media/piglatin.adf0b787.png",
     "static/media/portrait_illustration.19f47881.svg": "/portfolio/static/media/portrait_illustration.19f47881.svg",
-    "static/media/stamp.6a046192.svg": "/portfolio/static/media/stamp.6a046192.svg"
+    "static/media/rails-blog.ff1a5bbb.png": "/portfolio/static/media/rails-blog.ff1a5bbb.png",
+    "static/media/react-here.f647f023.png": "/portfolio/static/media/react-here.f647f023.png",
+    "static/media/remote_img.23751ca6.svg": "/portfolio/static/media/remote_img.23751ca6.svg",
+    "static/media/stamp.6a046192.svg": "/portfolio/static/media/stamp.6a046192.svg",
+    "static/media/tictactoe.524820f9.png": "/portfolio/static/media/tictactoe.524820f9.png",
+    "static/media/vcs_img.d28a3788.svg": "/portfolio/static/media/vcs_img.d28a3788.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f1fb57f0.js",
     "static/js/2.f44ca76b.chunk.js",
     "static/css/main.7b77e936.chunk.css",
-    "static/js/main.28429e58.chunk.js"
+    "static/js/main.4e15f138.chunk.js"
   ]
 }
