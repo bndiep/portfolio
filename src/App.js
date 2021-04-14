@@ -73,7 +73,7 @@ const App = () => {
             springConfig={{ stiffness: 180, damping: 8 }}
             interval={2000}
           >
-            { titles.map(title => <span className="font-mono font-medium text-yellow-500" key="id">{ title }</span>) }
+            { titles.map(title => <span className="font-mono text-yellow-500" key="id">{ title }</span>) }
           </TextLoop>
           .
         </h1>
@@ -128,7 +128,7 @@ const App = () => {
         <h2 className="py-2 text-3xl font-mono font-bold tracking-widest border-b-2 border-gray-400" id="skills">Skills</h2>
         <div className="pt-12 font-mono flex flex-wrap justify-center items-start">
           
-          <div className="m-2 w-64 border-t border-l border-r border-black rounded-lg bg-white">
+          <div className="m-2 w-72 border-t border-l border-r border-black rounded-lg bg-white">
             <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Frontend</h3>
               <img className="pt-2" src={ frontend } alt="abstract depiction of frontend development" />
@@ -142,7 +142,7 @@ const App = () => {
             </ul>
           </div>
           
-          <div className="m-2 w-64 border-t border-l border-r border-black rounded-lg bg-white">
+          <div className="m-2 w-72 border-t border-l border-r border-black rounded-lg bg-white">
             <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Backend</h3>
               <img className="pt-2" src={ backend } alt="abstract depiction of backend development" />
@@ -154,7 +154,7 @@ const App = () => {
             </ul>
           </div>
           
-          <div className="m-2 w-64 border-t border-l border-r border-black rounded-lg bg-white">
+          <div className="m-2 w-72 border-t border-l border-r border-black rounded-lg bg-white">
             <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Version Control</h3>
               <img className="pt-2" src={ versionControl } alt="abstract depiction of a version control system" />
@@ -166,7 +166,7 @@ const App = () => {
             </ul>
           </div>
 
-          <div className="m-2 w-64 border-t border-l border-r border-black rounded-lg bg-white">
+          <div className="m-2 w-72 border-t border-l border-r border-black rounded-lg bg-white">
             <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Working Remote</h3>
               <img className="pt-2" src={ remoteWork } alt="two people working communicating online" />
@@ -177,7 +177,7 @@ const App = () => {
             </ul>
           </div>
 
-          <div className="m-2 w-64 border-t border-l border-r border-black rounded-lg bg-white">
+          <div className="m-2 w-72 border-t border-l border-r border-black rounded-lg bg-white">
             <div className="p-2 border-b-2 border-black rounded-lg">
               <h3 className="text-2xl">Design</h3>
               <img className="pt-2" src={ design } alt="pencil and color wheel" />
