@@ -64,16 +64,16 @@ const App = () => {
       </div>
 
       <div className="my-24 flex flex-col">
-        <h1 className="px-12 text-6xl md:pt-8">
+        <h1 className="px-12 text-4xl md:text-6xl md:pt-8">
           Hi, I'm <span className="font-bold">Bạch</span>,
         </h1>
-        <h1 className="px-12 w-100 text-6xl tracking-wide">
+        <h1 className="px-12 w-100 text-4xl md:text-6xl tracking-wide">
           your friendly <span className="invisible"> </span>
           <TextLoop
             springConfig={{ stiffness: 180, damping: 8 }}
             interval={2000}
           >
-            { titles.map(title => <span className="font-mono text-5xl md:text-6xl text-yellow-500 tracking-tighter" key="id">{ title }</span>) }
+            { titles.map(title => <span className="font-mono text-yellow-500 tracking-tighter" key="id">{ title }</span>) }
           </TextLoop>
           .
         </h1>
@@ -97,11 +97,11 @@ const App = () => {
       </div>
       <div className="flex flex-row">
         <div className="p-4 py-12 md:p-20 w-1/2 bg-yellow-300 text-yellow-900 border-l-4 border-black">
-          <span className="font-mono text-2xl">Developing..</span>
+          <span className="font-mono text-2xl">Developing</span>
           <p> a digital product tangiable and accessible.</p>
         </div>
         <div className="p-4 py-12 md:p-20 w-1/2 bg-gray-700 text-gray-100 border-l-4 border-black">
-          <span className="font-mono text-2xl">Creating..</span>
+          <span className="font-mono text-2xl">Creating</span>
           <p> an engaging product using effective design.</p>
         </div>
       </div>
