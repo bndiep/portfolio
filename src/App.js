@@ -4,6 +4,16 @@ import TextLoop from "react-text-loop"
 import portrait from "./assets/portrait_illustration.svg"
 import profile from "./assets/BachDiep-3:2021.jpg"
 import stamp from "./assets/stamp.svg"
+import frontend from "./assets/frontend_img.svg"
+import backend from "./assets/backend_img.svg"
+import versionControl from "./assets/vcs_img.svg"
+import remoteWork from "./assets/remote_img.svg"
+import design from "./assets/design_img.svg"
+import reactHere from "./assets/react-here.png"
+import blog from "./assets/rails-blog.png"
+import ticTacToe from "./assets/tictactoe.png"
+import lifeband from "./assets/lifeband.png"
+import pigLatin from "./assets/piglatin.png"
 import menuBtn from "./assets/iconmonstr-menu-1.svg"
 import closeBtn from "./assets/iconmonstr-x-mark-1.svg"
 import resume from "./assets/Bach_Diep_Resume.pdf"
@@ -48,7 +58,7 @@ const App = () => {
         </nav>
       </header>
       <div>
-        <svg className="fill-current text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg alt="" className="fill-current text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path d="M0,32L48,58.7C96,85,192,139,288,144C384,149,480,107,576,80C672,53,768,43,864,64C960,85,1056,139,1152,154.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
         </svg>
       </div>
@@ -86,10 +96,10 @@ const App = () => {
         </p>
       </div>
       <div className="flex flex-row justify-stretch">
-        <div className="p-12 w-1/2 bg-yellow-300 text-yellow-900">
+        <div className="p-12 w-1/2 bg-yellow-300 text-yellow-900 border-l-4 border-black">
           <p>Making a digital product tangiable and accessible.</p>
         </div>
-        <div className="p-12 w-1/2 bg-gray-700 text-gray-100">
+        <div className="p-12 w-1/2 bg-gray-700 text-gray-100 border-l-4 border-black">
           <p>Creating an engaging product using effective design.</p>
         </div>
       </div>
@@ -117,7 +127,10 @@ const App = () => {
         <div className="pt-12 font-mono flex flex-wrap justify-center items-start">
           
           <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
-            <h3 className="p-2 h-48 text-2xl border-b-2 border-black rounded-lg">Frontend</h3>
+            <div className="p-2 h-48 border-b-2 border-black rounded-lg">
+              <h3 className="text-2xl">Frontend</h3>
+              <img className="pt-2" src={ frontend } alt="abstract depiction of frontend development" />
+            </div>
             <ul>
               <li className="p-2 border-b-2 border-black rounded-lg">HTML</li>
               <li className="p-2 border-b-2 border-black rounded-lg">CSS</li>
@@ -128,7 +141,10 @@ const App = () => {
           </div>
           
           <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
-            <h3 className="p-2 h-48 text-2xl border-b-2 border-black rounded-lg">Backend</h3>
+            <div className="p-2 h-48 border-b-2 border-black rounded-lg">
+              <h3 className="text-2xl">Backend</h3>
+              <img className="pt-2" src={ backend } alt="abstract depiction of backend development" />
+            </div>
             <ul>
               <li className="p-2 border-b-2 border-black rounded-lg">Ruby on Rails</li>
               <li className="p-2 border-b-2 border-black rounded-lg">PostgreSQL</li>
@@ -137,7 +153,10 @@ const App = () => {
           </div>
           
           <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
-            <h3 className="p-2 h-48 text-2xl border-b-2 border-black rounded-lg">Version Control</h3>
+            <div className="p-2 h-56 border-b-2 border-black rounded-lg">
+              <h3 className="text-2xl">Version Control</h3>
+              <img className="pt-2" src={ versionControl } alt="abstract depiction of a version control system" />
+            </div>
             <ul>
               <li className="p-2 border-b-2 border-black rounded-lg">Git</li>
               <li className="p-2 border-b-2 border-black rounded-lg">GitHub</li>
@@ -146,7 +165,10 @@ const App = () => {
           </div>
 
           <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
-            <h3 className="p-2 h-48 text-2xl border-b-2 border-black rounded-lg">Remote Work</h3>
+            <div className="p-2 h-56 border-b-2 border-black rounded-lg">
+              <h3 className="text-2xl">Working Remote</h3>
+              <img className="pt-2" src={ remoteWork } alt="two people working communicating online" />
+            </div>
             <ul>
               <li className="p-2 border-b-2 border-black rounded-lg">Slack</li>
               <li className="p-2 border-b-2 border-black rounded-lg shadow-md">Zoom</li>
@@ -154,7 +176,10 @@ const App = () => {
           </div>
 
           <div className="m-2 w-48 border-t border-l border-r border-black rounded-lg bg-white">
-            <h3 className="p-2 h-48 text-2xl border-b-2 border-black rounded-lg">Design</h3>
+            <div className="p-2 h-48 border-b-2 border-black rounded-lg">
+              <h3 className="text-2xl">Design</h3>
+              <img className="pt-2" src={ design } alt="pencil and color wheel" />
+            </div>
             <ul>
               <li className="p-2 border-b-2 border-black rounded-lg">Figma</li>
               <li className="p-2 border-b-2 border-black rounded-lg">Balsamiq</li>
@@ -171,9 +196,9 @@ const App = () => {
           
           <div className="p-8">
             <h4 className="text-2xl font-mono">LifeBand</h4>
-            <div className="my-2 flex flex-col md:flex-row">
-              <span className="mr-2 p-20 bg-yellow-400 border-yellow-200 rounded-md">Placeholder</span>
-              <p className="my-2 md:ml-2">
+            <div className="my-2 flex flex-col md:flex-row md:items-center">
+              <img className="mr-2 w-80 rounded rounded-lg filter grayscale" src={ lifeband } alt="" />
+              <p className="my-2 md:ml-2 md:w-80">
                 In the case of an emergency or whenever a medical professional requires a patient's medical history, LifeBand can step in to help those in need. Once a profile has been completed with the information the user would like to be known, a QR code will be generated and can be shared to the user's loved ones to redirect them to the user's profile. The profile can include a list of emergency contacts and the user's current daily medications.
               </p>
               </div>
@@ -185,9 +210,9 @@ const App = () => {
           
           <div className="p-8">
             <h4 className="text-2xl font-mono">React Here, Tryna Function</h4>
-            <div className="my-2 flex flex-col md:flex-row">
-              <span className="mr-2 p-20 bg-yellow-400 border-yellow-200 rounded-md">Placeholder</span>
-              <p className="my-2 md:ml-2">
+            <div className="my-2 flex flex-col md:flex-row md:items-center">
+              <img className="mr-2 w-80 rounded rounded-lg filter grayscale" src={ reactHere } alt="" />
+              <p className="my-2 md:ml-2 md:w-80">
                 An homage to E-40's song Function, this party app allows the user to input their budget and number of guests to give them a list of typical party items they will need to purchase. Go over budget, and your guests will have to pitch in.
               </p>
             </div>
@@ -200,9 +225,9 @@ const App = () => {
           
           <div className="p-8">
             <h4 className="text-2xl font-mono">Tic-Tac-Toe</h4>
-            <div className="my-2 flex flex-col md:flex-row">
-              <span className="mr-2 p-20 bg-yellow-400 border-yellow-200 rounded-md">Placeholder</span>
-              <p className="my-2 md:ml-2">
+            <div className="my-2 flex flex-col md:flex-row md:items-center">
+              <img className="mr-2 w-80 rounded rounded-lg filter grayscale" src={ ticTacToe } alt="" />
+              <p className="my-2 md:ml-2 md:w-80">
                 A simple implementation of Tic-Tac-Toe intended to be played by two users. The app will display the current player to keep track of the user's turns. There are three possible outcomes: X wins, O wins, or a cats game.
               </p>
             </div>
@@ -214,9 +239,9 @@ const App = () => {
           
           <div className="p-8">
             <h4 className="text-2xl font-mono">Pig Latin</h4>
-            <div className="my-2 flex flex-col md:flex-row">
-              <span className="mr-2 p-20 bg-yellow-400 border-yellow-200 rounded-md">Placeholder</span>
-              <p className="my-2 md:ml-2">
+            <div className="my-2 flex flex-col md:flex-row md:items-center">
+              <img className="mr-2 w-80 rounded rounded-lg filter grayscale" src={ pigLatin } alt="" />
+              <p className="my-2 md:ml-2 md:w-80">
                 An app that allows the user to convert their English words into Pig Latin. Has the ability to translate words starting with 'qu' and words in which 'y' acts a vowel. Maybe you can use this app when sending secret messages!
               </p>
             </div>
@@ -228,9 +253,9 @@ const App = () => {
 
           <div className="p-8">
             <h4 className="text-2xl font-mono">Blog App</h4>
-            <div className="my-2 flex flex-col md:flex-row">
-              <span className="mr-2 p-20 bg-yellow-400 border-yellow-200 rounded-md">Placeholder</span>
-              <p className="my-2 md:ml-2">
+            <div className="my-2 flex flex-col md:flex-row md:items-center">
+              <img className="mr-2 w-80 rounded rounded-lg filter grayscale" src={ blog } alt="" />
+              <p className="my-2 md:ml-2 md:w-80">
                 A simple blog app that demonstrates RESTful routes. The user is able to create, view, edit, and delete a blog post. Strong params exist to ensure the user includes all fields in their blog post submission.
               </p>
             </div>
@@ -242,7 +267,7 @@ const App = () => {
       </div>
 
       <div>
-        <svg className="fill-current text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg alt="" className="fill-current text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path d="M0,64L48,96C96,128,192,192,288,186.7C384,181,480,107,576,101.3C672,96,768,160,864,197.3C960,235,1056,245,1152,245.3C1248,245,1344,235,1392,229.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
         </svg>
       </div>
