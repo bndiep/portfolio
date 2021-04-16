@@ -88,18 +88,18 @@ const App = () => {
           <img className="w-28 md:w-36 rounded rounded-full absolute" src={ profile } alt="self portrait of Bach Diep" />
       </div>
 
-      <div className="px-8 py-8 pt-20 md:pt-24 bg-gray-500 text-gray-100 md:px-20 leading-loose">
-        <p className="font-mono text-2xl text-center">
+      <div className="px-8 py-8 pt-20 md:pt-24 bg-gray-900 text-gray-100 md:px-20 leading-loose">
+        <p className="font-mono text-yellow-200 text-2xl text-center">
           I'm a full stack developer based in San Diego, CA.
         </p>
-        <p className="font-mono text-lg text-center">[she/her/hers]</p>
-        <p className="pt-4">
-          When I'm not coding, I enjoy discovering new board games to play and painting with watercolors and gouache. I love art and design and sharing my work with others! I'm most interested in how tech and art can bridge the connection between people.
+        <p className="font-mono text-yellow-200 text-lg text-center">[she/her/hers]</p>
+        <p className="pt-4 text-gray-100">
+          I have always had an appreciation for art and design, and I want to be able to share my work with others. After graduating from Cal with a degree in integrative biology, I decided to venture off my original plan of pursing a career in optometry to seek a more creative profession. While both career options have their own interesting challenges, the work of a computer programmer best suited my interests as it comes with new daily problems and allows me to concoct outside-the-box ideas. I'm most interested in how tech and art can bridge the connection between people.
           This is what I love most about web development! It is the culimnation of these two challenges:
         </p>
       </div>
       <div className="flex flex-row">
-        <div className="p-4 py-12 md:p-20 w-1/2 bg-yellow-300 text-yellow-900 border-l-4 border-black">
+        <div className="p-4 py-12 md:p-20 w-1/2 bg-yellow-300 text-red-900 border-l-4 border-black">
           <span className="font-mono text-lg md:text-2xl font-medium">Developing...</span>
           <p> a digital product that is tangiable and accessible.</p>
         </div>
