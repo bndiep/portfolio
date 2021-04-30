@@ -2,7 +2,7 @@ import { useState } from "react"
 import TextLoop from "react-text-loop"
 
 import portrait from "./assets/portrait_illustration.svg"
-import profile from "./assets/BachDiep-3:2021.jpg"
+import profile from "./assets/profile_pic.jpg"
 import stamp from "./assets/stamp.svg"
 import frontend from "./assets/frontend_img.svg"
 import backend from "./assets/backend_img.svg"
@@ -13,7 +13,8 @@ import reactHere from "./assets/react-here.png"
 import blog from "./assets/rails-blog.png"
 import ticTacToe from "./assets/tictactoe.png"
 import lifeband from "./assets/lifeband.png"
-import pigLatin from "./assets/piglatin.png"
+import aapiDemo from "./assets/AJDemo.gif"
+import aapiStories from "./assets/Team AAPI Stories.pdf"
 import menuBtn from "./assets/iconmonstr-menu-1.svg"
 import closeBtn from "./assets/iconmonstr-x-mark-1.svg"
 import resume from "./assets/Bach_Diep_Resume.pdf"
@@ -53,7 +54,7 @@ const App = () => {
           <a href="#top" className="block py-1 text-yellow-400 hover:underline" onClick={ closeMenu }>Home</a>
           <a href="#skills" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Skills</a>
           <a href="#projects" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Projects</a>
-          <a href="#top" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Art</a>
+          {/* <a href="#top" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Art</a> */}
           <a href="mailto:bachdiep.dev@gmail.com" className="block py-1 text-gray-100 hover:underline" onClick={ closeMenu }>Contact</a>
         </nav>
       </header>
@@ -66,7 +67,7 @@ const App = () => {
       <div className="mt-16 mb-24 flex flex-col">
         <div className="h-36">
           <h1 className="px-8 text-5xl md:text-6xl md:pt-8">
-            Hi, I'm <span className="font-bold">Bạch</span>,
+            Hi, I'm <span className="font-bold">Bach</span>,
           </h1>
           <h1 className="px-8 w-100 text-5xl md:text-6xl tracking-wide">
             your friendly <span className="invisible"> </span>
@@ -181,6 +182,21 @@ const App = () => {
         <h2 className="py-2 text-3xl font-mono font-bold tracking-widest border-b-2" id="projects">Projects</h2>
         <div className="flex flex-col justify-center items-center">
           
+        <div className="p-8">
+            <h4 className="text-2xl font-mono">Concept: Advancing Justice Portal Site</h4>
+            <div className="my-2 flex flex-col md:flex-row md:items-center">
+              <img className="mr-2 w-80 rounded rounded-lg" src={ aapiDemo } alt="" />
+              <p className="my-2 md:ml-2 md:w-80">
+                The concepts and solution to improving the Advancing Justice site and adding a stories page. These ideas were developed in a span of a week with a team of 3--two developers and one project manager, for Essteem's Equalithon (ie. hackathon).
+              </p>
+            </div>
+            <div className="text-yellow-200 text-sm flex justify-end">
+              <a className="px-2" href={ aapiStories }>Slide Deck</a>
+              <a className="px-2" href="https://advancingjustice-aapi-stories.netlify.app/index.html">Demo</a>
+              <a className="px-2" href="https://github.com/bndiep/aapi-stories">GitHub</a>
+            </div>
+          </div>  
+
           <div className="p-8">
             <h4 className="text-2xl font-mono">LifeBand</h4>
             <div className="my-2 flex flex-col md:flex-row md:items-center">
@@ -223,20 +239,6 @@ const App = () => {
               <a className="px-2" href="https://github.com/bndiep/tic-tac-toe-app">GitHub</a>
             </div>
           </div>
-          
-          <div className="p-8">
-            <h4 className="text-2xl font-mono">Pig Latin</h4>
-            <div className="my-2 flex flex-col md:flex-row md:items-center">
-              <img className="mr-2 w-80 rounded rounded-lg" src={ pigLatin } alt="" />
-              <p className="my-2 md:ml-2 md:w-80">
-                An app that allows the user to convert their English words into Pig Latin. Has the ability to translate words starting with 'qu' and words in which 'y' acts a vowel. Maybe you can use this app when sending secret messages!
-              </p>
-            </div>
-            <div className="text-yellow-200 text-sm flex justify-end">
-              <a className="px-2" href="https://react-pig-latin-app.netlify.app">Demo</a>
-              <a className="px-2" href="https://github.com/bndiep/pig-latin-app">GitHub</a>
-            </div>
-          </div>   
 
           <div className="p-8">
             <h4 className="text-2xl font-mono">Blog App</h4>
