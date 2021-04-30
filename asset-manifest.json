@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c66f279f.chunk.css",
-    "main.js": "/portfolio/static/js/main.9cbb6592.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9cbb6592.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.35bc76f2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.35bc76f2.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f1fb57f0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f1fb57f0.js.map",
     "static/js/2.f44ca76b.chunk.js": "/portfolio/static/js/2.f44ca76b.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.c66f279f.chunk.css.map": "/portfolio/static/css/main.c66f279f.chunk.css.map",
     "static/js/2.f44ca76b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f44ca76b.chunk.js.LICENSE.txt",
     "static/media/AJDemo.081b73c9.gif": "/portfolio/static/media/AJDemo.081b73c9.gif",
-    "static/media/Bach_Diep_Resume.5bd770ca.pdf": "/portfolio/static/media/Bach_Diep_Resume.5bd770ca.pdf",
+    "static/media/BachDiep_Resume.0e9cfaec.pdf": "/portfolio/static/media/BachDiep_Resume.0e9cfaec.pdf",
     "static/media/Team AAPI Stories.80d3e423.pdf": "/portfolio/static/media/Team AAPI Stories.80d3e423.pdf",
     "static/media/backend_img.a8f12c83.svg": "/portfolio/static/media/backend_img.a8f12c83.svg",
     "static/media/design_img.1dc00bba.svg": "/portfolio/static/media/design_img.1dc00bba.svg",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.f1fb57f0.js",
     "static/js/2.f44ca76b.chunk.js",
     "static/css/main.c66f279f.chunk.css",
-    "static/js/main.9cbb6592.chunk.js"
+    "static/js/main.35bc76f2.chunk.js"
   ]
 }
