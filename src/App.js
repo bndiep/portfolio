@@ -17,7 +17,7 @@ import aapiDemo from "./assets/AJDemo.gif"
 import aapiStories from "./assets/Team AAPI Stories.pdf"
 import menuBtn from "./assets/iconmonstr-menu-1.svg"
 import closeBtn from "./assets/iconmonstr-x-mark-1.svg"
-import resume from "./assets/Bach_Diep_Resume.pdf"
+import resume from "./assets/BachDiep_Resume.pdf"
 
 const currentDate = new Date().toJSON().slice(0,10)
 const titles = ['coder', 'illustrator', 'introvert', '!robot']
