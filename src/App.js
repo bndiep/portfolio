@@ -19,7 +19,6 @@ import menuBtn from "./assets/iconmonstr-menu-1.svg"
 import closeBtn from "./assets/iconmonstr-x-mark-1.svg"
 import resume from "./assets/BachDiep_Resume.pdf"
 
-const currentDate = new Date().toJSON().slice(0,10)
 const titles = ['coder', 'illustrator', 'introvert', '!robot']
 
 const App = () => {
@@ -30,7 +29,7 @@ const App = () => {
   return (
     <div id="top">
       <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">
-        ✨ [{ currentDate }] This site is currently under construction! Please enjoy the progress! ✨
+        ✨ [10 May 2021] This site is currently under construction! Please enjoy the progress! ✨
       </div>
       <header className="flex flex-row justify-between items-center md:space-x-4 bg-gray-800 py-4 px-6 relative">
         <a href="#top" className="block">
