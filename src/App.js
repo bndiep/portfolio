@@ -14,6 +14,7 @@ import blog from "./assets/rails-blog.png"
 import ticTacToe from "./assets/tictactoe.png"
 import lifeband from "./assets/lifeband.png"
 import aapiDemo from "./assets/AJDemo.gif"
+import pokedex from "./assets/PokedexDemo.gif"
 import aapiStories from "./assets/Team AAPI Stories.pdf"
 import menuBtn from "./assets/iconmonstr-menu-1.svg"
 import closeBtn from "./assets/iconmonstr-x-mark-1.svg"
@@ -180,7 +181,21 @@ const App = () => {
       <div className="px-8 py-12 bg-gray-800 text-gray-200">
         <h2 className="py-2 text-3xl font-mono font-bold tracking-widest border-b-2" id="projects">Projects</h2>
         <div className="flex flex-col justify-center items-center">
-          
+        
+        <div className="p-8">
+            <h4 className="text-2xl font-mono">Pokédex</h4>
+            <div className="my-2 flex flex-col md:flex-row md:items-center">
+              <img className="mr-2 w-80 rounded rounded-lg" src={ pokedex } alt="" />
+              <p className="my-2 md:ml-2 md:w-80">
+                A frontend Pokédex app using React.js and the Styled-Component and React Sound libraries. Implements the PokeAPI to access the Pokemon endpoints and allows users to search for a Pokémon either by its name or ID number. Displays basic Pokémon data and it's sprite.
+              </p>
+            </div>
+            <div className="text-yellow-200 text-sm flex justify-end">
+              <a className="px-2" href="https://bndiep.github.io/pokedex/">Demo</a>
+              <a className="px-2" href="https://github.com/bndiep/pokedex">GitHub</a>
+            </div>
+          </div> 
+
         <div className="p-8">
             <h4 className="text-2xl font-mono">Concept: Advancing Justice Portal Site</h4>
             <div className="my-2 flex flex-col md:flex-row md:items-center">
