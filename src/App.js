@@ -19,6 +19,7 @@ import aapiStories from "./assets/Team AAPI Stories.pdf"
 import menuBtn from "./assets/iconmonstr-menu-1.svg"
 import closeBtn from "./assets/iconmonstr-x-mark-1.svg"
 import resume from "./assets/BachDiep_Resume.pdf"
+import miguelPortfolio from "./assets/migsportfoliomock.gif"
 
 const titles = ['coder', 'illustrator', 'introvert', '!robot']
 
@@ -182,7 +183,17 @@ const App = () => {
         <h2 className="py-2 text-3xl font-mono font-bold tracking-widest border-b-2" id="projects">Projects</h2>
         <div className="flex flex-col justify-center items-center">
         
-        <div className="p-8">
+          <div className="p-8">
+            <h4 className="text-2xl font-mono">WIP: Windows XP Themed Portfolio</h4>
+            <div className="my-2 flex flex-col md:flex-row md:items-center">
+              <img className="mr-2 w-80 rounded rounded-lg" src={ miguelPortfolio } alt="" />
+              <p className="my-2 md:ml-2 md:w-80">
+                Work in progress. Designed a Windows XP themed developer profile in Figma. All assets were created in Figma except the program icons and images.
+              </p>
+            </div>
+          </div> 
+
+          <div className="p-8">
             <h4 className="text-2xl font-mono">Pokédex</h4>
             <div className="my-2 flex flex-col md:flex-row md:items-center">
               <img className="mr-2 w-80 rounded rounded-lg" src={ pokedex } alt="" />
@@ -196,7 +207,7 @@ const App = () => {
             </div>
           </div> 
 
-        <div className="p-8">
+          <div className="p-8">
             <h4 className="text-2xl font-mono">Concept: Advancing Justice Portal Site</h4>
             <div className="my-2 flex flex-col md:flex-row md:items-center">
               <img className="mr-2 w-80 rounded rounded-lg" src={ aapiDemo } alt="" />
