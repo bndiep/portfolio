@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c66f279f.chunk.css",
-    "main.js": "/portfolio/static/js/main.895fb79c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.895fb79c.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.cb2969dd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cb2969dd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f1fb57f0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f1fb57f0.js.map",
     "static/js/2.f44ca76b.chunk.js": "/portfolio/static/js/2.f44ca76b.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.c66f279f.chunk.css.map": "/portfolio/static/css/main.c66f279f.chunk.css.map",
     "static/js/2.f44ca76b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f44ca76b.chunk.js.LICENSE.txt",
     "static/media/AJDemo.081b73c9.gif": "/portfolio/static/media/AJDemo.081b73c9.gif",
-    "static/media/BachDiep_Resume.77838096.pdf": "/portfolio/static/media/BachDiep_Resume.77838096.pdf",
+    "static/media/BachDiep_Resume.a6059164.pdf": "/portfolio/static/media/BachDiep_Resume.a6059164.pdf",
     "static/media/PokedexDemo.f713438d.gif": "/portfolio/static/media/PokedexDemo.f713438d.gif",
     "static/media/Team AAPI Stories.80d3e423.pdf": "/portfolio/static/media/Team AAPI Stories.80d3e423.pdf",
     "static/media/backend_img.a8f12c83.svg": "/portfolio/static/media/backend_img.a8f12c83.svg",
@@ -22,6 +22,7 @@
     "static/media/iconmonstr-menu-1.9ab4a2d0.svg": "/portfolio/static/media/iconmonstr-menu-1.9ab4a2d0.svg",
     "static/media/iconmonstr-x-mark-1.a300bb0f.svg": "/portfolio/static/media/iconmonstr-x-mark-1.a300bb0f.svg",
     "static/media/lifeband.ef5a5837.png": "/portfolio/static/media/lifeband.ef5a5837.png",
+    "static/media/migsportfoliomock.fe8b57e2.gif": "/portfolio/static/media/migsportfoliomock.fe8b57e2.gif",
     "static/media/portrait_illustration.19f47881.svg": "/portfolio/static/media/portrait_illustration.19f47881.svg",
     "static/media/profile_pic.ec36380f.jpg": "/portfolio/static/media/profile_pic.ec36380f.jpg",
     "static/media/rails-blog.ff1a5bbb.png": "/portfolio/static/media/rails-blog.ff1a5bbb.png",
@@ -35,6 +36,6 @@
     "static/js/runtime-main.f1fb57f0.js",
     "static/js/2.f44ca76b.chunk.js",
     "static/css/main.c66f279f.chunk.css",
-    "static/js/main.895fb79c.chunk.js"
+    "static/js/main.cb2969dd.chunk.js"
   ]
 }
