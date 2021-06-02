@@ -31,7 +31,7 @@ const App = () => {
   return (
     <div id="top">
       <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">
-        ✨ [10 May 2021] This site is currently under construction! Please enjoy the progress! ✨
+        ✨ [2 June 2021] This site is currently under construction! Please enjoy the progress! ✨
       </div>
       <header className="flex flex-row justify-between items-center md:space-x-4 bg-gray-800 py-4 px-6 relative">
         <a href="#top" className="block">
@@ -188,7 +188,7 @@ const App = () => {
             <div className="my-2 flex flex-col md:flex-row md:items-center">
               <img className="mr-2 w-80 rounded rounded-lg" src={ miguelPortfolio } alt="" />
               <p className="my-2 md:ml-2 md:w-80">
-                Work in progress. Designed a Windows XP themed developer profile in Figma. All assets were created in Figma except the program icons and images.
+                Work in progress. Currently being built on Replit. Designed a Windows XP themed developer profile in Figma. All assets were created in Figma except the program icons and images.
               </p>
             </div>
           </div> 
