@@ -31,7 +31,7 @@ const App = () => {
   return (
     <div id="top">
       <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">
-        ✨ [2 June 2021] This site is currently under construction! Please enjoy the progress! ✨
+        ✨ [8 June 2021] This site is currently under construction! Please enjoy the progress! ✨
       </div>
       <header className="flex flex-row justify-between items-center md:space-x-4 bg-gray-800 py-4 px-6 relative">
         <a href="#top" className="block">
@@ -188,8 +188,12 @@ const App = () => {
             <div className="my-2 flex flex-col md:flex-row md:items-center">
               <img className="mr-2 w-80 rounded rounded-lg" src={ miguelPortfolio } alt="" />
               <p className="my-2 md:ml-2 md:w-80">
-                Work in progress. Currently being built on Replit. Designed a Windows XP themed developer profile in Figma. All assets were created in Figma except the program icons and images.
+                Work in progress. Currently being built collaboratively on Replit using Styled-Components and React-Router-DOM. Designed a Windows XP themed developer profile in Figma. All component assets were created in Figma except the program icons and images.
               </p>
+            </div>
+            <div className="text-yellow-200 text-sm flex justify-end">
+              <a className="px-2" href="https://Portfolio.rmdpalo.repl.co">Preview</a>
+              <a className="px-2" href="https://www.figma.com/file/KKb7Ae9gRxmob4GiEMTqVj/Miguel-s-Portfolio-WIP?node-id=0%3A1">Figma</a>
             </div>
           </div> 
 
