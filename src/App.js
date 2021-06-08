@@ -186,7 +186,7 @@ const App = () => {
           <div className="p-8">
             <h4 className="text-2xl font-mono">WIP: Windows XP Themed Portfolio</h4>
             <div className="my-2 flex flex-col md:flex-row md:items-center">
-              <img className="mr-2 w-80 rounded rounded-lg" src={ miguelPortfolio } alt="" />
+              <img className="mr-2 w-100 md:w-80 rounded rounded-lg" src={ miguelPortfolio } alt="" />
               <p className="my-2 md:ml-2 md:w-80">
                 Work in progress. Currently being built collaboratively on Replit using Styled-Components and React-Router-DOM. Designed a Windows XP themed developer profile in Figma. All component assets were created in Figma except the program icons and images.
               </p>
@@ -200,7 +200,7 @@ const App = () => {
           <div className="p-8">
             <h4 className="text-2xl font-mono">Pokédex</h4>
             <div className="my-2 flex flex-col md:flex-row md:items-center">
-              <img className="mr-2 w-80 rounded rounded-lg" src={ pokedex } alt="" />
+              <img className="mr-2 w-100 md:w-80 rounded rounded-lg" src={ pokedex } alt="" />
               <p className="my-2 md:ml-2 md:w-80">
                 A frontend Pokédex app using React.js and the Styled-Component and React Sound libraries. Implements the PokeAPI to access the Pokemon endpoints and allows users to search for a Pokémon either by its name or ID number. Displays basic Pokémon data and it's sprite.
               </p>
@@ -214,7 +214,7 @@ const App = () => {
           <div className="p-8">
             <h4 className="text-2xl font-mono">Concept: Advancing Justice Portal Site</h4>
             <div className="my-2 flex flex-col md:flex-row md:items-center">
-              <img className="mr-2 w-80 rounded rounded-lg" src={ aapiDemo } alt="" />
+              <img className="mr-2 w-100 md:w-80 rounded rounded-lg" src={ aapiDemo } alt="" />
               <p className="my-2 md:ml-2 md:w-80">
                 The concepts and solution to improving the Advancing Justice site and adding a stories page. These ideas were developed in a span of a week with a team of 3--two developers and one project manager, for Essteem's Equalithon (ie. hackathon).
               </p>
@@ -229,7 +229,7 @@ const App = () => {
           <div className="p-8">
             <h4 className="text-2xl font-mono">LifeBand</h4>
             <div className="my-2 flex flex-col md:flex-row md:items-center">
-              <img className="mr-2 w-80 rounded rounded-lg" src={ lifeband } alt="" />
+              <img className="mr-2 w-100 md:w-80 rounded rounded-lg" src={ lifeband } alt="" />
               <p className="my-2 md:ml-2 md:w-80">
                 In the case of an emergency or whenever a medical professional requires a patient's medical history, LifeBand can step in to help those in need. By creating a profile, a QR code will be generated and can be shared to the user's loved ones to redirect them to the user's profile.
               </p>
@@ -243,7 +243,7 @@ const App = () => {
           <div className="p-8">
             <h4 className="text-2xl font-mono">React Here, Tryna Function</h4>
             <div className="my-2 flex flex-col md:flex-row md:items-center">
-              <img className="mr-2 w-80 rounded rounded-lg" src={ reactHere } alt="" />
+              <img className="mr-2 w-100 md:w-80 rounded rounded-lg" src={ reactHere } alt="" />
               <p className="my-2 md:ml-2 md:w-80">
                 An homage to E-40's song Function, this party app allows the user to input their budget and number of guests to give them a list of typical party items they will need to purchase. Go over budget, and your guests will have to pitch in.
               </p>
@@ -258,7 +258,7 @@ const App = () => {
           <div className="p-8">
             <h4 className="text-2xl font-mono">Tic-Tac-Toe</h4>
             <div className="my-2 flex flex-col md:flex-row md:items-center">
-              <img className="mr-2 w-80 rounded rounded-lg" src={ ticTacToe } alt="" />
+              <img className="mr-2 w-100 md:w-80 rounded rounded-lg" src={ ticTacToe } alt="" />
               <p className="my-2 md:ml-2 md:w-80">
                 A simple implementation of Tic-Tac-Toe intended to be played by two users. The app will display the current player to keep track of the user's turns. There are three possible outcomes: X wins, O wins, or a cats game.
               </p>
@@ -272,7 +272,7 @@ const App = () => {
           <div className="p-8">
             <h4 className="text-2xl font-mono">Blog App</h4>
             <div className="my-2 flex flex-col md:flex-row md:items-center">
-              <img className="mr-2 w-80 rounded rounded-lg" src={ blog } alt="" />
+              <img className="mr-2 w-100 md:w-80 rounded rounded-lg" src={ blog } alt="" />
               <p className="my-2 md:ml-2 md:w-80">
                 A simple blog app that demonstrates RESTful routes. The user is able to create, view, edit, and delete a blog post. Strong params exist to ensure the user includes all fields in their blog post submission.
               </p>
