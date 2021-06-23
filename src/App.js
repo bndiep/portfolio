@@ -30,9 +30,9 @@ const App = () => {
 
   return (
     <div id="top">
-      <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">
+      {/* <div className="p-2 bg-yellow-600 text-yellow-100 text-sm text-center flex justify-center">
         ✨ [8 June 2021] This site is currently under construction! Please enjoy the progress! ✨
-      </div>
+      </div> */}
       <header className="flex flex-row justify-between items-center md:space-x-4 bg-gray-800 py-4 px-6 relative">
         <a href="#top" className="block">
           <span className="sr-only">Bach Diep's Portfolio</span>
@@ -192,7 +192,7 @@ const App = () => {
               </p>
             </div>
             <div className="text-yellow-200 text-sm flex justify-end">
-              <a className="px-2" href="https://Portfolio.rmdpalo.repl.co">Preview</a>
+              <a className="px-2" href="https://replit.com/@rmdpalo/Portfolio#README.md">Replit Preview</a>
               <a className="px-2" href="https://www.figma.com/file/KKb7Ae9gRxmob4GiEMTqVj/Miguel-s-Portfolio-WIP?node-id=0%3A1">Figma</a>
             </div>
           </div> 
