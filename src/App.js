@@ -124,7 +124,7 @@ const App = () => {
               <li className="p-2 border-b-2 border-black rounded-lg">HTML</li>
               <li className="p-2 border-b-2 border-black rounded-lg">CSS</li>
               <li className="p-2 border-b-2 border-black rounded-lg">JavaScript</li>
-              <li className="p-2 border-b-2 border-black rounded-lg">Ruby</li>
+              <li className="p-2 border-b-2 border-black rounded-lg">TypeScript</li>
               <li className="p-2 border-b-2 border-black rounded-lg shadow-md">React</li>
             </ul>
           </div>
